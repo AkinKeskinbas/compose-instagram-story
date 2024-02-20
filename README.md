@@ -21,3 +21,19 @@ dependencies {
       implementation 'com.github.AkinKeskinbas:compose-instagram-story:Tag'
 	}
 ```
+
+## Example usage ##
+
+```kotlin
+
+                    InstagramStory(imageList = imageList) { page ->
+                        Box(modifier = Modifier) {
+                            AsyncImage(
+                                model = imageList[page],
+                                contentDescription = null,
+                                modifier = Modifier.fillMaxSize(),
+                                contentScale = ContentScale.Crop
+                            )
+                        }
+                    }
+```
