@@ -37,3 +37,7 @@ dependencies {
                         }
                     }
 ```
+
+
+https://github.com/AkinKeskinbas/compose-instagram-story/assets/58655582/fdf3b653-7194-42b8-a774-edd089c7f892
+
